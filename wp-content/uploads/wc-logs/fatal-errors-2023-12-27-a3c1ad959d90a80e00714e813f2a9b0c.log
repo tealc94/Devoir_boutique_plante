@@ -1,0 +1,51 @@
+2023-12-27T18:16:21+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\wamp64\www\plantes\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:286
+Stack trace:
+#0 C:\wamp64\www\plantes\wp-includes\rest-api\class-wp-rest-server.php(1193): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\wamp64\www\plantes\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\wamp64\www\plantes\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\wamp64\www\plantes\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\wamp64\www\plantes\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\wamp64\www\plantes\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\plantes\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\plantes\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\wamp64\www\plantes\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\wamp64\www\plantes\wp-includes\functions.php(1336): WP->main('')
+#10 C:\wamp64\www\plantes\wp-blog-header.php(16): wp()
+#11 C:\wamp64\www\plantes\index.php(17): require('C:\\wamp64\\www\\p...')
+#12 {main}
+  thrown dans C:\wamp64\www\plantes\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php à la ligne 286
+
+2023-12-27T18:17:55+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\wamp64\www\plantes\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:286
+Stack trace:
+#0 C:\wamp64\www\plantes\wp-includes\rest-api\class-wp-rest-server.php(1193): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\wamp64\www\plantes\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\wamp64\www\plantes\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\wamp64\www\plantes\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\wamp64\www\plantes\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\wamp64\www\plantes\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\plantes\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\plantes\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\wamp64\www\plantes\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\wamp64\www\plantes\wp-includes\functions.php(1336): WP->main('')
+#10 C:\wamp64\www\plantes\wp-blog-header.php(16): wp()
+#11 C:\wamp64\www\plantes\index.php(17): require('C:\\wamp64\\www\\p...')
+#12 {main}
+  thrown dans C:\wamp64\www\plantes\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php à la ligne 286
+
+2023-12-27T18:23:50+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\wamp64\www\plantes\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:286
+Stack trace:
+#0 C:\wamp64\www\plantes\wp-includes\rest-api\class-wp-rest-server.php(1193): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\wamp64\www\plantes\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\wamp64\www\plantes\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\wamp64\www\plantes\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\wamp64\www\plantes\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\wamp64\www\plantes\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\plantes\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\plantes\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\wamp64\www\plantes\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\wamp64\www\plantes\wp-includes\functions.php(1336): WP->main('')
+#10 C:\wamp64\www\plantes\wp-blog-header.php(16): wp()
+#11 C:\wamp64\www\plantes\index.php(17): require('C:\\wamp64\\www\\p...')
+#12 {main}
+  thrown dans C:\wamp64\www\plantes\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php à la ligne 286
+

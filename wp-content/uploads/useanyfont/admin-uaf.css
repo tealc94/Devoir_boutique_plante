@@ -1,0 +1,12 @@
+				@font-face {
+					font-family: 'noto-sans';
+					src: url('/Plantes/wp-content/uploads/useanyfont/9062Noto-Sans.woff2') format('woff2'),
+						url('/Plantes/wp-content/uploads/useanyfont/9062Noto-Sans.woff') format('woff');
+						  font-display: auto;
+				}
+
+				.noto-sans{font-family: 'noto-sans' !important;}
+
+				.et_gf_noto-sans{background:none !important;font-family:noto-sans;text-indent:0 !important;font-size:25px;}
+
+		

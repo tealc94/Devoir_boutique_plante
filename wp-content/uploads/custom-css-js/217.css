@@ -1,0 +1,71 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Ajouter votre code CSS ici.
+                     
+Par exemple:
+.exemple {
+    color: red;
+}
+
+Pour améliorer vos connaissances en CSS, visitez http://www.w3schools.com/css/css_syntax.asp
+
+Fin du commentaire */ 
+
+/*bouton boutique*/
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt{ 
+	background-color: #1E4D3B;
+	color: white;
+	border-radius: 20px
+}
+
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button:hover,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt:hover{ 
+	background-color: #799E2B;
+	color : #EDF2EF;
+}
+
+.wp-block-button__link{
+	background-color: #1E4D3B !important;
+	margin: 20px 20px;
+}
+
+.wp-block-button__link:hover {	
+	background-color: #799E2B !important;
+	color: #EDF2EF;
+}
+
+/*formulaire contact*/
+.elementor-59 .elementor-element.elementor-element-ae966ee.elementor-element {
+	width: 60%;
+}
+
+.produit{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.titre_produit{
+	margin-top: 30px;
+}
+
+.titre_presentation, .titre_propos{
+	padding: 20px 20px;
+}
+.presentation, .titre_presentation, .propos, .titre_propos{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.equipe{
+	padding: 20px 20px;
+	width:700px;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.boutique{
+	max-width: 900px;
+	margin: 0 auto;
+}</style>
+<!-- end Simple Custom CSS and JS -->
